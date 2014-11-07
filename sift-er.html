@@ -1,0 +1,31 @@
+<!--
+  SIFT-ER
+
+  DESCRIPTION:
+    - `sift-er` is an element which exposes basic functionality for searching through an array
+
+  EXAMPLE:
+    <sift-er 
+      id="sift"
+      items="{{ items }}" >
+    </sift-er>
+    ...
+    var results = this.$.sift.search( 'myItem' );
+
+  @element sift-er
+  @status unstable
+-->
+
+<!-- POLYMER -->
+<link rel="import" href="../polymer/polymer.html">
+
+<!-- DEPENDENCIES -->
+<script type="text/javascript" src="../sifter/sifter.js"></script>
+
+<!-- ELEMENT -->
+<polymer-element name="sift-er" hidden attributes="items">
+  
+  <!-- REGISTRATION -->
+  <script src="sift-er.js"></script>
+
+</polymer-element>
