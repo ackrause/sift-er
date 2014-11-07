@@ -1,0 +1,28 @@
+{
+  "name": "sift-er",
+  "version": "0.0.0",
+  "homepage": "https://github.com/ackrause/sift-er",
+  "authors": [
+    "Andrew Krause a.c.krause@gmail.com"
+  ],
+  "description": "The sift-er component exposes sifter.js (https://github.com/brianreavis/sifter.js/) functionality",
+  "main": "sift-er.html",
+  "keywords": [
+    "polymer",
+    "component",
+    "sifter"
+  ],
+  "license": "Apache License, Version 2.0",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "polymer": "~0.4.2",
+    "sifter": "~0.3.4"
+  }
+}
